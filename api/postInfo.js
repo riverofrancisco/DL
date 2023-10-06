@@ -1,5 +1,5 @@
 const axios = require("axios");
-const { DB_PORT } = process.env;
+const { SERVER_PORT } = process.env;
 module.exports.postCourses = async function (course) {
   let courseDB = {
     name: course.name,
@@ -13,12 +13,9 @@ module.exports.postCourses = async function (course) {
     category: course.category,
   };
   await axios
-    .post(`http://localhost:${DB_PORT}/courses`, courseDB)
-    .then(function (response) {
-      //console.log(response);
-    })
-    .catch(function (error) {
-      console.log(error);
+    .post(`http://localhost:${SERVER_PORT}/courses`, courseDB)
+    .catch(function (e) {
+      console.log(`Algo salió mal al publicar el curso ${courseDB.name}. Error: `, e);
     });
 };
 
@@ -29,12 +26,9 @@ module.exports.postCategories = async function (category) {
     description: category.description,
   };
   await axios
-    .post(`http://localhost:${DB_PORT}/categories`, categoryDB)
-    .then(function (response) {
-      //console.log(response);
-    })
-    .catch(function (error) {
-      console.log(error);
+    .post(`http://localhost:${SERVER_PORT}/categories`, categoryDB)
+    .catch(function (e) {
+      console.log(`Algo salió mal al publicar la categoria ${categoryDB.name}. Error: `, e);
     });
 };
 ("/register");
@@ -46,11 +40,8 @@ module.exports.postAdmin = async function (user) {
     rank: user.rank,
   };
   await axios
-    .post(`http://localhost:${DB_PORT}/registerDB`, userDB)
-    .then(function (response) {
-      //console.log(response);
-    })
-    .catch(function (error) {
-      console.log(error);
+    .post(`http://localhost:${SERVER_PORT}/registerDB`, userDB)
+    .catch(function (e) {
+      console.log(`Algo salió mal al publicar el admin ${userDB.name}. Error: `, e);
     });
 };
