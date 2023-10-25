@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sendMail = void 0;
-require("dotenv").config({ path: __dirname + "/.env" });
+require("dotenv").config();
 const mail_1 = __importDefault(require("@sendgrid/mail"));
 const { SENDGRID_API_KEY } = process.env;
 mail_1.default.setApiKey(SENDGRID_API_KEY);

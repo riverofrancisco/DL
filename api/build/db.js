@@ -1,12 +1,15 @@
-"use strict";
-require("dotenv").config({ path: __dirname + "/.env" });
+require("dotenv").config();
 const { Sequelize } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
-const { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME } = process.env;
-const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`, {
-    logging: false,
-    native: false,
+const DB_URL = process.env.DB_URL;
+const sequelize = new Sequelize(DB_URL, {
+    dialect: 'postgres',
+    dialectOptions: {
+        ssl: {
+            rejectUnauthorized: false
+        }
+    }
 });
 const basename = path.basename(__filename);
 const modelDefiners = [];

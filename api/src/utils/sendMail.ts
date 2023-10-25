@@ -1,5 +1,5 @@
-require("dotenv").config({ path: __dirname + "/.env" });
-import { Mail } from "../Interfaces/Mail";
+require("dotenv").config();
+import { Mail } from "../Interfaces/mail";
 import sgMail from "@sendgrid/mail";
 const { SENDGRID_API_KEY } = process.env;
 

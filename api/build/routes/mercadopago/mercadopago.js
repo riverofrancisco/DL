@@ -1,4 +1,3 @@
-"use strict";
 // SDK de Mercado Pago
 const mercadopago = require("mercadopago");
 require("dotenv").config();
