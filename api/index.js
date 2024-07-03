@@ -9,7 +9,7 @@ const PORT = 3001;
 conn.sync({ force: true }).then(() => {
   server.listen(PORT, () => {
     console.log("%s listening at", PORT);
-    dbCategories.categories.map((category) => {
+    /*  dbCategories.categories.map((category) => {
       return postCategories(category);
     });
     dbCourses.courses.map((course, index) => {
@@ -17,6 +17,6 @@ conn.sync({ force: true }).then(() => {
     });
     dbAdmin.admin.map((user) => {
       return postAdmin(user);
-    });
+    }); */
   });
 });
