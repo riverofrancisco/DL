@@ -4,10 +4,9 @@ const { postCourses, postCategories, postAdmin } = require("./postInfo.js");
 const dbCourses = require("./courses.json");
 const dbCategories = require("./categories.json");
 const dbAdmin = require("./admin.json");
-const { SERVER_PORT } = process.env;
-const PORT = SERVER_PORT || 5432;
+const PORT = 3001;
 
-conn.sync({ force: false }).then(() => {
+conn.sync({ force: true }).then(() => {
   server.listen(PORT, () => {
     console.log("%s listening at", PORT);
     dbCategories.categories.map((category) => {

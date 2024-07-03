@@ -51,8 +51,8 @@ const LandingPage: React.FC = () => {
             </Typography>
           </Box>
           <Box mt={3}>
-            {/* <NavLink to="/courses"> */}
-            <NavLink to="/siteOnMaintenance">
+            <NavLink to="/courses">
+            {/* <NavLink to="/siteOnMaintenance"> */}
               <Fab size="medium" variant="extended" color="inherit">
                 <Typography variant="button" p={2}>
                   See courses
