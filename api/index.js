@@ -4,7 +4,7 @@ const { postCourses, postCategories, postAdmin } = require("./postInfo.js");
 const dbCourses = require("./courses.json");
 const dbCategories = require("./categories.json");
 const dbAdmin = require("./admin.json");
-const PORT = 3001;
+const PORT = SERVER_PORT | 3001;
 
 conn.sync({ force: true }).then(() => {
   server.listen(PORT, () => {
