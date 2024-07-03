@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "tsc": "npx tsc",
-    "build": "npx tsc && node index.js",
+    "build": "tsc && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Devs Learning Team",
