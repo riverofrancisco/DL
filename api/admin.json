@@ -1,52 +1,16 @@
 {
-    "admin": [
-        {
-            "fullname": "Jonatan Villalva",
-            "email": "jvillalva.sistemas@gmail.com",
-            "rank": "admin",
-            "id": "GGEi2am1wrf1eMW9ElmeUKlibwq2"
-        },
-        {
-            "fullname": "Simon Navarrete",
-            "email": "nacor8xbox@gmail.com",
-            "rank": "admin",
-            "id": "5bVbQlfuWKYpVCyDZlbOpsOdqBJ3"
-        },
-        {
-            "fullname": "Jonathan Kim",
-            "email": "jonnykimbk@gmail.com",
-            "rank": "admin",
-            "id": "9kIIso56zYNo7SG2qO404F890kp1"
-        },
-        {
-            "fullname": "Francisco Rivero",
-            "email": "francisco.rivero124@gmail.com",
-            "rank": "admin",
-            "id": "INHQUroP5jQSLXCq9CsHq2xJFyu2"
-        },
-        {
-            "fullname": "Emiliano Nahuel Galvan Alvarez",
-            "email": "galvanalvarezemiliano@hotmail.com",
-            "rank": "admin",
-            "id": "TRlXQP2HFOaf8YSfx48Hl06v7ya2"
-        },
-        {
-            "fullname": "Federico Aldama",
-            "email": "fedealdama.fa@gmail.com",
-            "rank": "admin",
-            "id": "KP3m5hLVCnTPb6weMwHm7EufmmU2"
-        },
-        {
-            "fullname": "Gonzalo Leguiza",
-            "email": "leguizagonzalo98@gmail.com",
-            "rank": "admin",
-            "id": "1YR9keOPM8MATyd3q8yHOPRUfVv2"
-        },
-        {
-            "fullname": "Estiven Muñoz",
-            "email": "estiven25b777@gmail.com",
-            "rank": "admin",
-            "id": "nFhnZ4tL0zSo5JFux4A2XTWpUGf1"
-        }
-    ]
+  "admin": [
+    {
+      "fullname": "Fredi Dev",
+      "email": "franciscorivero.it@gmail.com",
+      "rank": "admin",
+      "id": "IvN5aU394IZZwM1x6wScBmVZ6jC2"
+    },
+    {
+      "fullname": "Francisco Rivero",
+      "email": "francisco.rivero124@gmail.com",
+      "rank": "admin",
+      "id": "smMLNFoMbcWTKqW7sU5rXfeY9J62"
+    }
+  ]
 }

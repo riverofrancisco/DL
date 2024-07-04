@@ -14,6 +14,7 @@
 /api/node_modules
 /api/.pnp.*
 /api/.env
+/api/dist
 /api/package-lock.json
 
 # Ignorar node_modules, .pnp, .env y package-lock.json en la carpeta "client"
