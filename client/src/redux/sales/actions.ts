@@ -14,6 +14,7 @@ export const getSales = (): ThunkAction<
   unknown,
   AnyAction
 > => {
+  console.log(BACK);
   return (dispatch) => {
     axios.get(`${BACK}/courses/sales`).then((response) => {
       // console.log(response.data);
