@@ -7,10 +7,10 @@ const dbAdmin = require("./admin.json");
 
 const PORT = process.env.SERVER_PORT | 3001;
 
-conn.sync({ force: true }).then(() => {
+conn.sync({ force: false }).then(() => {
   server.listen(PORT, () => {
-    console.log("%s listening at", PORT);
-    /*  dbCategories.categories.map((category) => {
+    console.log("Server listening at port:", PORT);
+   /*  dbCategories.categories.map((category) => {
       return postCategories(category);
     });
     dbCourses.courses.map((course, index) => {
