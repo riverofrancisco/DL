@@ -6,12 +6,12 @@
 ![devs-learning](https://user-images.githubusercontent.com/59519580/229355608-b5a7c4c5-18a7-49fc-8d6d-9d12885ad963.jpeg)
 
 ## Para Trabajar con la aplicacion
+Clonamos el repositorio a nuestra máquina local.
 ```
 git clone https://github.com/riverofrancisco/DL
 ```
 ### Inicializar el backend
-1. 
-Nos dirigimos a la carpeta e instalamos las dependencias.
+1. Nos dirigimos a la carpeta e instalamos las dependencias.
 ```
 cd api
 npm install
