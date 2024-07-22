@@ -43,7 +43,7 @@ npm run build
 ```
 npm start
 ```
-![Important]
+> ![Important]
 > - Para el correcto funcionamiento de la aplicación, debes crear un archivo `.env` con tus propias credenciales, respetando el formato del template que se encuentra en cada carpeta `api` y `client`
 > - Deberás tener un proyecto en Firebase inicializado, para configurar tu autenticación.
 > - Deberás tener una cuenta test de Mercadopago para poder realizar las compras.
