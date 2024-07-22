@@ -5,7 +5,7 @@
 
 ![devs-learning](https://user-images.githubusercontent.com/59519580/229355608-b5a7c4c5-18a7-49fc-8d6d-9d12885ad963.jpeg)
 
-## Para Trabajar con la aplicacion
+## Para Trabajar con la aplicación
 Clonamos el repositorio a nuestra máquina local.
 ```
 git clone https://github.com/riverofrancisco/DL
@@ -44,7 +44,7 @@ npm run build
 npm start
 ```
 > [!IMPORTANT]
-> - Para el correcto funcionamiento de la aplicación, debes crear un archivo `.env` con tus propias credenciales, respetando el formato del template que se encuentra en cada carpeta `api` y `client`
+> - Para el correcto funcionamiento de la aplicación, debes crear un archivo `.env` con tus propias credenciales, respetando el formato del template `env.example` que se encuentra en cada carpeta `api` y `client`
 > - Deberás tener un proyecto en Firebase inicializado, para configurar tu autenticación.
 > - Deberás tener una cuenta test de Mercadopago para poder realizar las compras.
 
