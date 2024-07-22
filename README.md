@@ -43,6 +43,10 @@ npm run build
 ```
 npm start
 ```
+![IMPORTANT]
+> - Para el correcto funcionamiento de la aplicación, debes crear un archivo `.env` con tus propias credenciales, respetando el formato del template que se encuentra en cada carpeta `api` y `client`
+> - Deberás tener un proyecto en Firebase inicializado, para configurar tu autenticación.
+> - Deberás tener una cuenta test de Mercadopago para poder realizar las compras.
 
 > Para probar el despliegue de la aplicación y su funcionamiento, ingresar al siguiente link: https://devslearning.vercel.app/
 > La plataforma fue desarrollada con las siguientes tecnologias
