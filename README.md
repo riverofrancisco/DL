@@ -1,12 +1,13 @@
 ![Copia de F](https://user-images.githubusercontent.com/59519580/215589040-a5eff0b0-35b0-4316-a85b-5a88eecb779c.png)
-<h1 align=center>Devs Learning(Plataforma de aprendizaje on-demand)</h1>
+#Devs Learning
+>(Plataforma de aprendizaje on-demand)
 
 ![devs-learning](https://user-images.githubusercontent.com/59519580/229355608-b5a7c4c5-18a7-49fc-8d6d-9d12885ad963.jpeg)
 
-<h4 align=center>Para probar la aplicación y su funcionamiento podes ingresar al siguiente link: https://devs-learning-5hal.vercel.app/</h4>
+Para probar la aplicación y su funcionamiento podes ingresar al siguiente link: https://devs-learning.vercel.app/
 
-<br><br>
-<h3 align="center">La plataforma fue desarrollada con las siguientes tecnologias<h3>
+
+>La plataforma fue desarrollada con las siguientes tecnologias
 
 <p align="center">
   <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg" alt="html5" height="80" width="150">
